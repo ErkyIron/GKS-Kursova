@@ -66,7 +66,7 @@ namespace GKS_kursov
                                     StringSplitOptions.RemoveEmptyEntries).ToList();
 
             n = listOperation.Count();
-
+            //Create Arr1List
             List<string>[] arr1list = new List<string>[n];
             for (int i = 0; i < arr1list.Length - 1; i++)
             {
